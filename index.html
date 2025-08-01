@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon clone</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <!-- Box1 -->
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <!-- Box2 -->
+            <div class="nav-adress border">
+                <p class="adress-title">Deliver to</p>
+                <div class="adress-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="adress-country">India</p>
+                </div>
+            </div>
+            <!-- Box3 -->
+            <div class="nav-search">
+                <!-- To create a dropdown menu in HTML, you use the <select> and <option> tags. -->
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Amazon" class="search-input" type="text">
+                <div class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <!-- Box4 -->
+             <div>
+                <div class="language border">
+                  <div class="language-icon"></div>
+                  <select class="language-title">
+                    <option>EN</option>
+                  </select>
+                </div>
+             </div>
+             <!-- Box5 -->
+              <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+              </div>
+            <!-- Box6 -->
+              <div class="return border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+              </div>
+            <!-- Box7 -->
+              <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+                
+              </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-options">
+                <p>Today's Deals</p>
+                <p>Registry</p>
+                <p>Customer Service</p>
+                <p>Prime Video</p>
+                <p>Gift Cards</p>
+                <p>Sell</p>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero section => the main banner area -->
+     <div class="hero">
+        <div class="hero-message">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in">Click here to go to amazon.in</a></div>
+     </div>
+<!-- Grid Section -->
+        <div class="grid-container">
+<!-- Home Essentials -->
+            <div class="grid-item home">
+                <h2>Shop for your home essentials</h2>
+                <div class="sub-grid">
+                    <div><img src="A1.jpg"><p>Cleaning Tools</p></div>
+                    <div><img src="A2.jpg"><p>Home Storage</p></div>
+                    <div><img src="A3.jpg"><p>Home Decor</p></div>
+                    <div><img src="A4.jpg"><p>Bedding</p></div>
+                </div>
+            <a href="#">Discover more in Home</a>
+            </div>
+
+<!-- Gaming -->
+            <div class="grid-item gaming">
+                <h2>Get your game on</h2>
+                <img src="A5.jpg" class="main-img">
+                <a href="#">Shop gaming</a>
+            </div>
+
+<!-- Fashion -->
+            <div class="grid-item fashion">
+                <h2>Fashion trends you like</h2>
+                <div class="sub-grid">
+                    <div><img src="A6.jpg"><p>Dresses</p></div>
+                    <div><img src="A7.jpg"><p>Knits</p></div>
+                    <div><img src="A8.jpg"><p>Jackets</p></div>
+                    <div><img src="A9.jpg"><p>Jewelry</p></div>
+                </div>
+            <a href="#">Explore more</a>
+            </div>
+
+<!-- School Essentials -->
+            <div class="grid-item school">
+                <h2>Save big on school essentials</h2>
+                <div class="sub-grid">
+                    <div><img src="A10.jpg"><p>Backpacks</p></div>
+                    <div><img src="A11.jpg"><p>Electronics</p></div>
+                    <div><img src="A12.jpg"><p>Stationery</p></div>
+                    <div><img src="A13.jpg"><p>Fashion</p></div>
+                </div>
+            <a href="#">See more</a>
+            </div>
+<!-- Top categories in kitchen appliances -->
+            <div class="grid-item kitchen">
+                <h2>Top categories in kitchen appliances</h2>
+                <div class="sub-grid">
+                    <div><img src="A14.jpg" class="cooker"><p>Cooker</p></div>
+                    <div><img src="A15.jpg"><p>Coffee</p></div>
+                    <div><img src="A16.jpg"><p>Pots</p></div>
+                    <div><img src="A17.jpg"><p>Kettles</p></div>
+                </div>
+            <a href="#">Explore all products in kitchen</a>
+            </div>
+<!-- Shop fashion for less -->
+            <div class="grid-item fashion-less">
+                <h2>Shop Fashion for less</h2>
+                <div class="sub-grid">
+                    <div><img src="A18.jpg"><p>Jeans under $50</p></div>
+                    <div><img src="A19.jpg"><p>Tops under $25</p></div>
+                    <div><img src="A20.jpg"><p>Dresses under $30</p></div>
+                    <div><img src="A21.jpg"><p>Shoes under $50</p></div>
+                </div>
+                <a href="#">See all details</a>
+            </div>
+<!-- Deals for every grade -->
+            <div class="grid-item Deal">
+                <h2>Deals for every grade</h2>
+                <img src="A22.jpg" class="main-img">
+            <a href="#">See all details</a>
+            </div>
+<!--New home arrivals under $50  -->
+            <div class="grid-item home-arrivals">
+                <h2>New home arrivals under $50</h2>
+                <div class="sub-grid">
+                    <div><img src="A23.jpg"><p>Kitchen & Dining</p></div>
+                    <div><img src="A24.jpg"><p>Home Improvement</p></div>
+                    <div><img src="A25.jpg"><p>Decor</p></div>
+                    <div><img src="A26.jpg"><p>Bedding and bath</p></div>
+                </div>
+            <a href="#">Shop the latest from home</a>
+            </div>
+    </div>
+    <footer>
+        <div class="foot-panel1">
+            Back to top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <p><a href="#">Careers</a></p>
+                <p><a href="#">Blog</a></p>
+                <p><a href="#">About Amazon</a></p>
+                <p><a href="#">Investor Relations</a></p>
+                <p><a href="#">Amazon Devices</a></p>
+                <p><a href="#">Amazon Science</a></p>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <p><a href="#">Sell products on Amazon</a></p>
+                <p><a href="#">Sell on Amazon Business</a></p>
+                <p><a href="#">Sell apps on Amazon</a></p>
+                <p><a href="#">Become an Affiliate</a></p>
+                <p><a href="#">Advertise Your Products</a></p>
+                <p><a href="#">Self-Publish with Us</a></p>
+                <p><a href="#">Host an Amazon Hub</a></p>
+                <p><a href="#">›See More Make Money with Us</a></p>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <p><a href="#">Amazon Business Card</a></p>
+                <p><a href="#">Shop with Points</a></p>
+                <p><a href="#">Reload Your Balance</a></p>
+                <p><a href="#">Amazon Currency Converter</a></p>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <p><a href="#">Amazon and COVID-19</a></p>
+                <p><a href="#">Your Account</a></p>
+                <p><a href="#">Your Orders</a></p>
+                <p><a href="#">Shipping Rates & Policies</a></p>
+                <p><a href="#">Returns & Replacements</a></p>
+                <p><a href="#">Manage Your Content and Devices</a></p>
+                <p><a href="#">Help</a></p>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo-2"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Customer Health Data</a>
+                <a>Privacy Disclosure</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <p class="copyright">© 1996-2025, Amazon.com, Inc. or its affiliates</p>
+    </footer>
+</body>
+</html>
